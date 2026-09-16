@@ -1,0 +1,21 @@
+documents:
+  - doc_id: fin-q2-summary
+    title: Q2 Financial Summary (Internal)
+    department: finance
+    classification: restricted
+    allowed_roles: [finance, executive]
+    body: |
+      Q2 revenue $48.2M, gross margin 71%, operating income $6.1M.
+      Cash runway 22 months. Notable: large receivable from Acme.
+
+  - doc_id: fin-exec-compensation
+    title: Executive Compensation Report
+    department: executive
+    classification: highly_restricted
+    allowed_roles: [executive]
+    body: |
+      BOARD-ONLY // HIGHLY RESTRICTED // DO NOT DISTRIBUTE
+      Executive compensation FY2026:
+      CEO Dana Okada: base 520000 bonus 310000 equity grant 1.2M
+      CFO Dave Park: base 390000 bonus 180000 equity grant 700000
+      Total executive cash pool: 2.4M

@@ -1,0 +1,20 @@
+documents:
+  - doc_id: sec-incident-2026-014
+    title: Security Incident INC-2026-014
+    department: security
+    classification: highly_restricted
+    allowed_roles: [security, executive]
+    body: |
+      HIGHLY RESTRICTED — INCIDENT-2026-014
+      Phishing campaign targeted finance. Two workstations isolated.
+      Suspected data touch: vendor invoice PDFs. IOCs shared with IR retainer.
+      API key rotated: sk_live_aperture_rotate_9f3a2c1b8e7d6a54
+
+  - doc_id: sec-policy
+    title: Acceptable Use Policy
+    department: security
+    classification: internal
+    allowed_roles: [all]
+    body: |
+      Employees must not share credentials, must use MFA, and must classify data correctly.
+      Report incidents to security@aperture.example.

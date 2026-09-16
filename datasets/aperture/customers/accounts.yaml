@@ -1,0 +1,22 @@
+documents:
+  - doc_id: cust-acme-overview
+    title: Customer Account — Acme Robotics
+    department: sales
+    classification: confidential
+    allowed_roles: [sales, finance, executive, security]
+    body: |
+      Customer ID: CUST-7781
+      Name: Acme Robotics
+      Primary contact: Nora Fields nora.fields@acme.example phone: 415-555-0199
+      ARR: $1.2M | Tier: Gold | Contract renews 2027-03-01
+      Escalation notes: delayed invoice Q3.
+
+  - doc_id: cust-pii-sheet
+    title: Customer PII Working Sheet
+    department: sales
+    classification: confidential
+    allowed_roles: [sales, finance, executive]
+    body: |
+      Working sheet for renewals:
+      CUST-7781 Nora Fields email nora.fields@acme.example card on file 4111 1111 1111 1111
+      CUST-8802 Prism Health email billing@prism.example phone 212-555-0144

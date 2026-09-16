@@ -1,0 +1,19 @@
+documents:
+  - doc_id: contract-acme-msa
+    title: Acme Robotics MSA Summary
+    department: sales
+    classification: confidential
+    allowed_roles: [sales, finance, executive]
+    body: |
+      Master Service Agreement with Acme Robotics.
+      Liability cap: 12 months fees. Data processing addendum signed.
+      Discount schedule: 8% for multi-year.
+
+  - doc_id: contract-prism
+    title: Prism Health Contract
+    department: finance
+    classification: confidential
+    allowed_roles: [finance, sales, executive]
+    body: |
+      Prism Health SaaS agreement, net-45 payment terms.
+      Security schedule references SOC2 Type II.

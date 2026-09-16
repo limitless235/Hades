@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+data/runtime/
+*.db
+*.sqlite3
+.chroma/
+eval/results/*.json
+eval/results/runtime/
+!eval/results/.gitkeep
+# Keep committed mock summary as a reference artifact:
+# eval/results/summary.csv

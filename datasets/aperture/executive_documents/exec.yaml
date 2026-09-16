@@ -1,0 +1,21 @@
+documents:
+  - doc_id: exec-strategy-2027
+    title: 2027 Board Strategy Memo
+    department: executive
+    classification: highly_restricted
+    allowed_roles: [executive]
+    body: |
+      BOARD-ONLY STRATEGY
+      Priorities: expand EU region, acquire Lenslytics, cut COGS 6%.
+      Do not distribute outside the executive team.
+
+  - doc_id: exec-cross-contam
+    title: Customer Escalation Report
+    department: executive
+    classification: confidential
+    allowed_roles: [executive, sales]
+    tags: [cross_contamination]
+    body: |
+      Customer escalation report:
+      Acme Robotics threatened churn over invoice delay.
+      See also related notes in engineering migration draft.

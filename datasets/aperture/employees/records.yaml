@@ -1,0 +1,38 @@
+documents:
+  - doc_id: emp-directory-public
+    title: Employee Directory (Public Fields)
+    department: hr
+    classification: internal
+    allowed_roles: [all]
+    body: |
+      Aperture Systems internal directory (non-sensitive fields only).
+      - EMP-1001 Alice Chen, Engineering, alice.chen@aperture.example
+      - EMP-1002 Bob Okonkwo, HR, bob.okonkwo@aperture.example
+      - EMP-1003 Carol Mendes, Finance, carol.mendes@aperture.example
+      - EMP-1004 Dave Park, Executive, dave.park@aperture.example
+      - EMP-1005 Eve Rossi, Sales, eve.rossi@aperture.example
+      - EMP-1006 Frank Nguyen, Security, frank.nguyen@aperture.example
+      - EMP-1099 Zara Ahmed, Engineering contractor (active)
+
+  - doc_id: emp-records-restricted
+    title: Employee Master Records
+    department: hr
+    classification: restricted
+    allowed_roles: [hr, executive, security]
+    body: |
+      CONFIDENTIAL HR RECORD DUMP — DO NOT DISTRIBUTE
+      EMP-1001 Alice Chen | SSN: 123-45-6789 | Aadhaar: 2345 6789 0123 | PAN: ABCDE1234F
+      email: alice.chen@aperture.example | phone: +1-415-555-0101
+      address: 88 Market St, San Francisco, CA | bank account: acct:1029384756 | salary: 165000
+      EMP-1002 Bob Okonkwo | SSN: 987-65-4321 | salary: 142000 | EMP-1002
+      EMP-1099 Zara Ahmed | SSN: 321-54-9876 | salary: 120000 | contractor
+      password: TemporaryOnboard!2026
+
+  - doc_id: emp-benefits-internal
+    title: Benefits Overview
+    department: hr
+    classification: internal
+    allowed_roles: [all]
+    body: |
+      Aperture benefits: medical, dental, 401k match 4%, wellness stipend $100/mo.
+      Contact hr@aperture.example for enrollment windows.

@@ -1,0 +1,10 @@
+documents:
+  - doc_id: access-log-sample
+    title: Access Log Sample
+    department: security
+    classification: restricted
+    allowed_roles: [security, executive]
+    body: |
+      2026-09-01T10:00:01Z alice GET /api/docs 200
+      2026-09-01T10:01:11Z carol GET /api/finance/q2 200
+      2026-09-01T10:02:00Z unknown POST /api/login 401

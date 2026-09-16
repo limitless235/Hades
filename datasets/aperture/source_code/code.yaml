@@ -1,0 +1,21 @@
+documents:
+  - doc_id: src-auth-snippet
+    title: Auth Service Snippet
+    department: engineering
+    classification: internal
+    allowed_roles: [engineer, security]
+    body: |
+      // auth_service.py excerpt
+      def issue_session(user_id: str) -> str:
+          return sign(user_id, key=os.environ["SESSION_SIGNING_KEY"])
+
+  - doc_id: src-secrets-leak
+    title: Misplaced Config Backup
+    department: engineering
+    classification: restricted
+    allowed_roles: [security, executive]
+    body: |
+      Accidentally committed lab config backup:
+      DATABASE_URL=postgres://aperture:Sup3rS3cret@db.internal:5432/app
+      api_key=sk_hades_lab_only_do_not_use_outside
+      password: backup-restore-temp
